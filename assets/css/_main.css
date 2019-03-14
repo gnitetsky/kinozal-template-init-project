@@ -1,0 +1,9 @@
+.new-films-item {
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+}
+
+.new-films > .row {
+  margin-left: -7.5px;
+  margin-right: -7.5px;
+}

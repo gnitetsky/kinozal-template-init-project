@@ -1,0 +1,23 @@
+.left-sidebar {
+  margin-top: 40px;
+}
+
+.vertical-slider {
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.site-news-item {
+  clear: both;
+}
+
+.site-news-item__image {
+  float: left;
+  width: 75px;
+  margin: 0 10px 10px 0;
+}
+
+.site-news-item__image img {
+  width: 100%;
+}

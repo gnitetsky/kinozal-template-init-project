@@ -1,9 +1,20 @@
-.new-films-item {
+.new-films,
+.top-week,
+.film-news {
+  position: relative;
+  overflow: hidden;
+}
+
+.new-films-item,
+.top-week-item,
+.film-news-item {
   padding-left: 7.5px;
   padding-right: 7.5px;
 }
 
-.new-films > .row {
+.new-films > .row,
+.top-week > .row,
+.film-news > .row {
   margin-left: -7.5px;
   margin-right: -7.5px;
 }

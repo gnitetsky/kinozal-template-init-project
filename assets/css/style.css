@@ -86,6 +86,47 @@ a:hover, a:focus {
   color: #df8a13;
 }
 
+h1 {
+  font-family: "PT Serif", serif;
+  font-size: 3rem;
+  margin: 40px 0;
+}
+
+h1:after {
+  content: "";
+  width: 100%;
+  height: 3px;
+  position: absolute;
+  background-color: #f0ad4e;
+  margin: 41px 0 0 15px;
+}
+
+h2 {
+  font-family: "PT Serif", serif;
+  font-size: 2.5rem;
+  margin: 40px 0;
+}
+
+h2:after {
+  content: "";
+  width: 100%;
+  height: 3px;
+  position: absolute;
+  background-color: #f0ad4e;
+  margin: 35px 0 0 15px;
+}
+
+h2:before {
+  content: "";
+  width: 30px;
+  height: 3px;
+  background-color: #f0ad4e;
+  display: inline-block;
+  margin-bottom: 25px;
+  margin-right: 15px;
+  display: inline-block;
+}
+
 .header-logo {
   padding: 100px 20px;
   background-color: #222222;
@@ -114,12 +155,23 @@ a:hover, a:focus {
   text-shadow: 0 0 5px black, 0 0 20px black;
 }
 
-.new-films-item {
+.new-films,
+.top-week,
+.film-news {
+  position: relative;
+  overflow: hidden;
+}
+
+.new-films-item,
+.top-week-item,
+.film-news-item {
   padding-left: 7.5px;
   padding-right: 7.5px;
 }
 
-.new-films > .row {
+.new-films > .row,
+.top-week > .row,
+.film-news > .row {
   margin-left: -7.5px;
   margin-right: -7.5px;
 }
@@ -186,4 +238,33 @@ a:hover, a:focus {
 
 .site-news-item:hover .thumbnail {
   background-color: #df8a13;
+}
+
+.top-films .panel-body {
+  padding: 0;
+}
+
+.top-films .panel-body .list-group-item {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  background: none;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+}
+
+.top-films .panel-body .list-group-item:last-child {
+  border-bottom: 0;
+}
+
+.footer {
+  background-color: #222222;
+}
+
+.footer h4 {
+  color: white;
+}
+
+.footer p {
+  color: #777777;
 }

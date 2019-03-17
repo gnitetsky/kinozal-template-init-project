@@ -1,3 +1,9 @@
+.main {
+    .panel-search {
+        margin-top: 40px;
+    }
+}
+
 .new-films,
 .top-week,
 .film-news {
@@ -7,10 +13,49 @@
     &-item {
         padding-left: 7.5px;
         padding-right: 7.5px;
+        transition: 0.25s;
+
+        &:hover {
+            .thumbnail {
+                background-color: $accent-color;
+            }
+            .caption {
+                color: white;
+            }
+        }
     }
 
     > .row {
         margin-left: -7.5px;
         margin-right: -7.5px;
-    }  
+    }
+
+    img {
+        width: 100%;
+    }
+    
+    .caption {
+        text-align: center;
+    }
+}
+
+.film-news {
+
+    &__item {
+        margin-bottom: 30px;
+
+        .thumbnail,
+        .btn-warning {
+            transition: 0.25s;
+        }
+        &:hover {
+            a {
+                color: $accent-color;
+            }
+            .thumbnail,
+            .btn-warning {
+                background-color: $accent-color;
+            }
+        }
+    }
 }

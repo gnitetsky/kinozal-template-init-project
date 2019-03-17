@@ -1,11 +1,41 @@
 .footer {
     background-color: #222222;
+    padding-top: 40px;
+    margin-top: 30px;
 
-    h4 {
-        color: white;
+    .container {
+        padding: 0;
+
+        .footer-item {
+
+            h4 {
+                color: white;
+            }
+                   
+            p {
+                margin: 0;
+                a {
+                    color: #777777;
+                    &:hover {
+                        color: white;
+                    }
+                }
+            }
+        }
+    
+        .footer-link {
+            margin: 31px 0 22px 0;
+    
+            h4 {
+                color: white;
+                margin: 0;
+                a {
+                    color: white;
+                    font-weight: 700;
+                    font-size: 16px;
+                }
+            }
+        }
     }
 
-    p {
-        color: #777777;
-    }
 }

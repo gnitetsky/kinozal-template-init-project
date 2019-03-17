@@ -155,6 +155,10 @@ h2:before {
   text-shadow: 0 0 5px black, 0 0 20px black;
 }
 
+.main .panel-search {
+  margin-top: 40px;
+}
+
 .new-films,
 .top-week,
 .film-news {
@@ -167,6 +171,21 @@ h2:before {
 .film-news-item {
   padding-left: 7.5px;
   padding-right: 7.5px;
+  -webkit-transition: 0.25s;
+  -o-transition: 0.25s;
+  transition: 0.25s;
+}
+
+.new-films-item:hover .thumbnail,
+.top-week-item:hover .thumbnail,
+.film-news-item:hover .thumbnail {
+  background-color: #df8a13;
+}
+
+.new-films-item:hover .caption,
+.top-week-item:hover .caption,
+.film-news-item:hover .caption {
+  color: white;
 }
 
 .new-films > .row,
@@ -174,6 +193,38 @@ h2:before {
 .film-news > .row {
   margin-left: -7.5px;
   margin-right: -7.5px;
+}
+
+.new-films img,
+.top-week img,
+.film-news img {
+  width: 100%;
+}
+
+.new-films .caption,
+.top-week .caption,
+.film-news .caption {
+  text-align: center;
+}
+
+.film-news__item {
+  margin-bottom: 30px;
+}
+
+.film-news__item .thumbnail,
+.film-news__item .btn-warning {
+  -webkit-transition: 0.25s;
+  -o-transition: 0.25s;
+  transition: 0.25s;
+}
+
+.film-news__item:hover a {
+  color: #df8a13;
+}
+
+.film-news__item:hover .thumbnail,
+.film-news__item:hover .btn-warning {
+  background-color: #df8a13;
 }
 
 .left-sidebar {
@@ -240,8 +291,16 @@ h2:before {
   background-color: #df8a13;
 }
 
+.top-films {
+  margin-bottom: 60px;
+}
+
 .top-films .panel-body {
   padding: 0;
+}
+
+.top-films .panel-body .list-group {
+  margin: 15px 0;
 }
 
 .top-films .panel-body .list-group-item {
@@ -253,18 +312,69 @@ h2:before {
   border-top: 0;
 }
 
+.top-films .panel-body .list-group-item a {
+  -webkit-transition: color 0s;
+  -o-transition: color 0s;
+  transition: color 0s;
+}
+
+.top-films .panel-body .list-group-item .badge {
+  margin-top: 3px;
+}
+
 .top-films .panel-body .list-group-item:last-child {
   border-bottom: 0;
 }
 
-.footer {
-  background-color: #222222;
+.top-films .panel-body .list-group-item:hover {
+  background-color: #df8a13;
 }
 
-.footer h4 {
+.top-films .panel-body .list-group-item:hover a {
   color: white;
 }
 
-.footer p {
+.top-films .panel-body .list-group-item:hover .badge {
+  background-color: #222222;
+}
+
+.footer {
+  background-color: #222222;
+  padding-top: 40px;
+  margin-top: 30px;
+}
+
+.footer .container {
+  padding: 0;
+}
+
+.footer .container .footer-item h4 {
+  color: white;
+}
+
+.footer .container .footer-item p {
+  margin: 0;
+}
+
+.footer .container .footer-item p a {
   color: #777777;
+}
+
+.footer .container .footer-item p a:hover {
+  color: white;
+}
+
+.footer .container .footer-link {
+  margin: 31px 0 22px 0;
+}
+
+.footer .container .footer-link h4 {
+  color: white;
+  margin: 0;
+}
+
+.footer .container .footer-link h4 a {
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
 }

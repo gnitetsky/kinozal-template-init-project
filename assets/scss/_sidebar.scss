@@ -59,19 +59,44 @@
     }
 }
 .top-films {
+    margin-bottom: 60px;
 
     .panel-body {
         padding: 0;
+        
+        .list-group {
+            margin: 15px 0;
+        }
         
         .list-group-item {
             border-radius: 0;
             background: none;
             border-left: 0;
             border-right: 0;
-            border-top: 0; 
+            border-top: 0;
+
+            a {
+                transition: color 0s;
+            }
+
+            .badge {
+                margin-top: 3px;
+            }
 
             &:last-child {
                 border-bottom: 0;
+            }
+
+            &:hover {
+                background-color: $accent-color;
+
+                a {
+                    color: white;
+                }
+
+                .badge {
+                    background-color: $dark-color;
+                }
             }
         }
     }

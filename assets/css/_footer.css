@@ -1,11 +1,40 @@
 .footer {
   background-color: #222222;
+  padding-top: 40px;
+  margin-top: 30px;
 }
 
-.footer h4 {
+.footer .container {
+  padding: 0;
+}
+
+.footer .container .footer-item h4 {
   color: white;
 }
 
-.footer p {
+.footer .container .footer-item p {
+  margin: 0;
+}
+
+.footer .container .footer-item p a {
   color: #777777;
+}
+
+.footer .container .footer-item p a:hover {
+  color: white;
+}
+
+.footer .container .footer-link {
+  margin: 31px 0 22px 0;
+}
+
+.footer .container .footer-link h4 {
+  color: white;
+  margin: 0;
+}
+
+.footer .container .footer-link h4 a {
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
 }

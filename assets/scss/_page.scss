@@ -20,6 +20,7 @@
 }
 
 .film-description {
+    
     .panel-body {
         border-radius: 4px;
     }
@@ -28,24 +29,25 @@
 .panel-data {
     width: 100%;
 
-  .list-group {
-    text-align: center;
-    margin: 0;
-    font-size: 1.25rem;
+    .list-group {
+        text-align: center;
+        margin: 0;
+        font-size: 1.25rem;
 
-    &-item {
-        background: none;
-        border: none;
-        display: inline-block;
-        padding-bottom: 5px;
-        padding-top: 5px;
+        &-item {
+            background: none;
+            border: none;
+            display: inline-block;
+            padding-bottom: 5px;
+            padding-top: 5px;
+        }
+
+        .badge {
+            margin-top: 4px;
+            margin-left: 4px;
+            font-size: 1rem;
+        }
     }
-    .badge {
-        margin-top: 4px;
-        margin-left: 4px;
-        font-size: 1rem;
-    }
-  }
 }
 
 .embed-responsive-16by9 {

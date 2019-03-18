@@ -8,32 +8,32 @@
   padding: 0;
 }
 
-.footer .container .footer-item h4 {
+.footer-item h4 {
   color: white;
 }
 
-.footer .container .footer-item p {
+.footer-item p {
   margin: 0;
 }
 
-.footer .container .footer-item p a {
+.footer-item a {
   color: #777777;
 }
 
-.footer .container .footer-item p a:hover {
+.footer-item a:hover {
   color: white;
 }
 
-.footer .container .footer-link {
+.footer-link {
   margin: 31px 0 22px 0;
 }
 
-.footer .container .footer-link h4 {
+.footer-link h4 {
   color: white;
   margin: 0;
 }
 
-.footer .container .footer-link h4 a {
+.footer-link a {
   color: white;
   font-weight: 700;
   font-size: 16px;

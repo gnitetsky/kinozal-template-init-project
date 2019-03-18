@@ -26,3 +26,23 @@
         @include text-shadow;
     }
 }
+
+@media (max-width: 767px) {
+    .navbar-nav {
+
+        li {
+            margin: 0;
+        }
+        a {
+            border-radius: 0 !important; 
+        }
+    }
+
+    .navbar-left {
+        margin-bottom: 0;
+    }
+
+    .navbar-right {
+        margin-top: 0;
+    }
+}
